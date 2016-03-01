@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<h1>Alrighty then - this is your super duper movie poster pooper!</h1>
+
+
+<div class="container">
+	<div class="row movieInputRow">
+		<input class="col-xs-2" type="text" id ="movieInput">
+		<button class = "col-xs-2"id="movieSubmit">submit movie</button>
+
+		<input class="col-xs-2" type="text" id="yearInput"> 
+		<button class= "col-xs-2"id="yearSubmit">submit year</button>
+
+		<input class="col-xs-2" type="text" id="typeInput"> 
+		<button class="col-xs-2" id="typeSubmit">submit type</button>
+	</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+		<button class="btn btn-primary col-xs-12" id="nextPageButton"> Would you like to see the next page of results?</button>
+	</div>
+</div>
+	
+<div id="movieContainer">
+	<div id="movieTemplate">
+		<div class="movieTitle"></div>
+		<div class="moviePoster"></div>
+		<img class="moviePoster">
+		<div><a class="imdbLink" href=""></a></div>
+	</div>
+</div>
+
+	<script src= "http://code.jquery.com/jquery-2.2.1.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
